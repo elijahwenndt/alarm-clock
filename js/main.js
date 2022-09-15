@@ -23,10 +23,13 @@ function liveUpdate () {
     if (alarmTime + ':00' === timeComplete) {
              document.getElementById('alarm').innerHTML = "get up";
             // alert('get up')
-        }
-    // else {
-    //     document.getElementById('alarm').innerHTML = " ";
-    // }
+        };
+    
+    document.getElementById("btn").addEventListener("click", () => {
+             document.getElementById('alarm').innerHTML = " ";
+        })    
+     
+    
 
     
     

@@ -9,15 +9,18 @@
     
   </head>
   <body>
-    <div id = "clock-face"></div>
-    <div id = "alarm"></div>
-    <div id = "full-date"></div>
-    <!-- <button id = "btn">SNOOZE</button> -->
-    <div id = "setAlarm">
-      <label for="alarmSelector">Choose an Alarm Time</label>
+    <div class = "container">
+      <div id = "clock-face"></div>
+      <div id = "alarm"></div>
+      <div id = "full-date"></div>
+      <div id = "set-text">Set Alarm</div>
+      <div id = "setAlarm">
+        <label for="alarmSelector"></label>
 
-      <input type="time" id="alarmSelector" name="AlarmSet" min="00:00" max="24:00" required>
+        <input type="time" id="alarmSelector" name="AlarmSet" min="00:00" max="24:00" required>
+      </div>
+      <button id = "btn">Clear Alarm</button>
     </div>
-    <button id = "btn">SNOOZE</button>
+
     <script src="./js/main.js"></script>
   </body>

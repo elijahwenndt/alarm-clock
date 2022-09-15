@@ -1,0 +1,39 @@
+html {
+    background: url("../img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+position:absolute;
+top:35%;
+left:50%;
+margin-top: -50px;
+margin-left: -100px;
+font-family: fantasy, impact;
+font-size: 50px;
+
+}
+
+#clock-face {
+    margin: 10px;
+    -webkit-text-stroke: 5px black;
+    -webkit-text-fill-color: white;
+}
+
+#alarm {
+    margin: 10px;
+    -webkit-text-stroke: 5px black;
+    -webkit-text-fill-color: white;
+}
+
+#full-date{
+    margin: 10px;
+    -webkit-text-stroke: 5px black;
+    -webkit-text-fill-color: white;
+}
+
+#set-text{
+    margin: 10px;
+    -webkit-text-stroke: 5px black;
+    -webkit-text-fill-color: white;
+}

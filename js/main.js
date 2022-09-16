@@ -1,6 +1,9 @@
 function liveUpdate () {
     const currentTime = new Date ();
     let hours = currentTime.getHours();
+    if (hours < 10){
+        hours = "0" + hours
+    }
     
     let minutes = currentTime.getMinutes ();
     if (minutes < 10){

@@ -1,5 +1,3 @@
-
-
 function liveUpdate () {
     const currentTime = new Date ();
     let hours = currentTime.getHours();
@@ -21,7 +19,7 @@ function liveUpdate () {
     console.log(alarmTime)
      
     if (alarmTime + ':00' === timeComplete) {
-             document.getElementById('alarm').innerHTML = "get up";
+             document.getElementById('alarm').innerHTML = "Get Your Ass Out Of Bed";
             // alert('get up')
         };
     
@@ -29,10 +27,6 @@ function liveUpdate () {
              document.getElementById('alarm').innerHTML = " ";
         })    
      
-    
-
-    
-    
 };
 setInterval(liveUpdate, 1000);
 
